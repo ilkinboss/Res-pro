@@ -19,53 +19,53 @@ body, html {height: 100%}
 </head>
 <body>
 
-<div class="bgimg w3-display-container w3-text-white">
-  <div class="w3-display-middle w3-jumbo">
+<div class="bgimg display-container text-white">
+  <div class="display-middle jumbo">
     <p>THE CAFI</p>
   </div>
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  <div class="display-topleft container xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="button black">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="button black">contact</button></p>
   </div>
-  <div class="w3-display-bottomleft w3-container">
-    <p class="w3-xlarge">Azerbaycan Metbexi</p>
-    <p class="w3-large">Saat 7-24 Xidmetinizdeyik</p>
+  <div class="display-bottomleft container">
+    <p class="xlarge">Azerbaycan Metbexi</p>
+    <p class="large">Saat 7-24 Xidmetinizdeyik</p>
     <p>powered by KRADYNA</a></p>
   </div>
 </div>
 
 <!-- Menu Modal -->
-<div id="menu" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-black w3-display-container">
-      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+<div id="menu" class="modal">
+  <div class="modal-content animate-zoom">
+    <div class="container black display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="button display-topright large">x</span>
       <h1>Qelyan Alti</h1>
     </div>
-    <div class="w3-container">
+    <div class="container">
       <h5>Pendir <b>$1.00</b></h5>
       <h5>Pomidor <b>$1.00</b></h5>
       <h5>Goy goyerti <b>$1.00</b></h5>
     </div>
-    <div class="w3-container w3-black">
+    <div class="container black">
       <h1>Ana Yemekler</h1>
     </div>
-    <div class="w3-container">
+    <div class="container">
       <h5>Yarmag Dolmasi <b>$8.50</b></h5>
       <h5>Toyug qizartmasi <b>$5.50</b></h5>
       <h5>Piti <b>$5.00</b></h5>
     </div>
-    <div class="w3-container w3-black">
+    <div class="container black">
       <h1>Salatlar</h1>
     </div>
-    <div class="w3-container">
+    <div class="container">
       <h5>Paytaxt salati <b>$2.50</b></h5>
       <h5>Toyug salati <b>$2.50</b></h5>
       <h5>Mimoza <b>$2.00</b></h5>
     </div>
-    <div class="w3-container w3-black">
+    <div class="container black">
       <h1>ickiler</h1>
     </div>
-    <div class="w3-container">
+    <div class="container">
       <h5>Kola <b>$1.50</b></h5>
       <h5>Fanta <b>$1.00</b></h5>
       <h5>Ayran <b>$1.00</b></h5>
@@ -74,20 +74,20 @@ body, html {height: 100%}
 </div>
 
 <!-- Contact Modal -->
-<div id="contact" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-black">
-      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+<div id="contact" class="modal">
+  <div class="modal-content animate-zoom">
+    <div class="container black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="button display-topright large">x</span>
       <h1>Contact</h1>
     </div>
-    <div class="w3-container">
+    <div class="container">
       <p>Reserve a table, ask for today's special or just send us a message:</p>
       <form action="/action_page.php" target="_blank">
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Ad" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Soy Ad" required name="People"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2024-11-16T20:00"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-        <p><button class="w3-button" type="submit">Mesaji Gonder</button></p>
+        <p><input class="input padding-16 border" type="text" placeholder="Ad" required name="Name"></p>
+        <p><input class="input padding-16 border" type="number" placeholder="Soy Ad" required name="People"></p>
+        <p><input class="input padding-16 border" type="datetime-local" placeholder="Date and time" required name="date" value="2024-11-16T20:00"></p>
+        <p><input class="input padding-16 border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="button" type="submit">Mesaji Gonder</button></p>
       </form>
     </div>
   </div>
